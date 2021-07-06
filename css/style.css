@@ -1,0 +1,32 @@
+.header{
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:2%;
+    border-bottom:5px solid teal;
+    background-color: rgba(22, 61, 238, 0.726);
+    color: rgb(252, 248, 248);
+}
+.container {
+    margin:0 auto;
+    border:1px solid silver;
+    padding:2%;
+    width:80%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.node.org {
+    background:mediumslateblue;
+    text-align:center;
+    padding-top:20px;
+    width:200px;
+    color:oldlace;
+}
+.node.entity {
+    background: rgb(129, 248, 248);
+    padding-top:10px;
+}
+#tree-view table{
+    margin:0px auto;
+}
