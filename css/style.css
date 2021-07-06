@@ -26,6 +26,7 @@
 .node.entity {
     background: rgb(129, 248, 248);
     padding-top:10px;
+    font-size: 11PX;
 }
 #tree-view table{
     margin:0px auto;
