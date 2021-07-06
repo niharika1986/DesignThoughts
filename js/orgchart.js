@@ -101,7 +101,7 @@
 
 		if ($childNodesCount > 0) {
 			// if it can be expanded then change the cursor
-			$nodeCell.append('<div><img class="cover" src="images/orgchart.minus.png"/></div>');
+			$nodeCell.append('<div><img class="cover" src="https://raw.githubusercontent.com/niharika1986/DesignThoughts/main/images/orgchart.minus.png"/></div>');
 		}
 										 
 		// Expand and contract nodes
@@ -113,14 +113,14 @@
 				if ($tr.hasClass('contracted')) {
 					$tr.removeClass('contracted').addClass('expanded');
 					$tr.nextAll("tr").css('display', '');
-					$(this).attr('src', 'images/orgchart.minus.png');
+					$(this).attr('src', 'https://raw.githubusercontent.com/niharika1986/DesignThoughts/main/images/orgchart.minus.png');
 					// Update the <li> appropriately so that if the tree redraws collapsed/non-collapsed nodes
 					// maintain their appearance
 					$node.removeClass('collapsed');
 				} else {
 					$tr.removeClass('expanded').addClass('contracted');
 					$tr.nextAll("tr").css('display', 'none');
-					$(this).attr('src', 'images/orgchart.plus.png');
+					$(this).attr('src', 'https://raw.githubusercontent.com/niharika1986/DesignThoughts/main/images/orgchart.plus.png');
 					$node.addClass('collapsed');
 				}
 			});	
@@ -178,7 +178,7 @@
 					$nodeRow.nextAll('tr').css('display', 'none');
 					$nodeRow.removeClass('expanded');
 					$nodeRow.addClass('contracted');
-					$nodeRow.find('img.cover').attr('src', 'images/orgchart.plus.png');
+					$nodeRow.find('img.cover').attr('src', 'https://raw.githubusercontent.com/niharika1986/DesignThoughts/main/images/orgchart.plus.png');
 				} else {
 					$nodeDiv.addClass(item);
 				}
